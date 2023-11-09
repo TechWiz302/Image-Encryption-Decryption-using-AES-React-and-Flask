@@ -1,0 +1,118 @@
+.upload-button {
+    display: flex;
+    margin: 20px 0;
+}
+
+.pass {
+    display: flex;
+    margin: 20px 0;
+}
+
+.submit-btn {
+    display: flex;
+    margin: 20px 0;
+}
+
+
+
+.input-img {
+    display: flex;
+    font-family: "Jost", sans-serif;
+    position: relative;
+    width: 300px;
+    height: 60px;
+    color: #fff;
+    background-color: #455964;
+    border-radius: 10px;
+    font-size: large;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.input-img svg {
+    color: #fff;
+}
+
+
+.input-img input[type='file'] {
+    display: block;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.submit-btn button  {
+    display: flex;
+    font-family: "Jost", sans-serif;
+    position: relative;
+    width: 150px;
+    height: 40px;
+    color: #fff;
+    background-color: #455964;
+    border-radius: 5px;
+    font-size: large;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+
+.pass input[type='password']{
+    display: flex;
+    position: relative;
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: large;
+    justify-content: center;
+    text-align: left;
+    line-height: 40px;
+    cursor: pointer;
+    border: 2px solid #455964;
+    border-radius: 10px;
+    outline: none;
+}
+
+
+@media screen and (max-width: 992px) {
+    .upload-button {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .pass {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .submit-btn {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    .heroSection_content {
+        width: 100% !important;
+    }
+
+    .heroSection_image {
+        width: 100% !important;
+    }
+}

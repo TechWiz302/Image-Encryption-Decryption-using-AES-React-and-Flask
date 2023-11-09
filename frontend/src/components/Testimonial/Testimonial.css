@@ -1,0 +1,131 @@
+.testimonial-cont {
+  margin: 0% 5%;
+}
+
+.testimonial-heading h1{
+  text-align: center;
+  color: #333;
+  font-size: 42px;
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.testimonial-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonial {
+  position: relative;
+  width: 100%;
+  padding: 50px 0;
+}
+
+.testimonial .image {
+  width: 15%;
+  object-fit: cover;
+}
+
+.testimonial .slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.slide p {
+  padding: 0 10%;
+  color: #595959;
+  font-size: 20px;
+  font-family: "Jost", sans-serif;
+  text-align: center;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.slide .quote-icon {
+  font-size: 50px;
+  color: #5e87eb;
+}
+
+.slide .details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.details .name {
+    color: #333;
+    font-size: 30px;
+    font-family: "Jost", sans-serif;
+    font-weight: bold;
+    line-height: 1.4;
+}
+.details .job {
+    color: #595959;
+    font-size: 20px;
+    font-family: "Jost", sans-serif;
+    line-height: 1.4;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    color: #5e87eb;
+}
+
+.swiper-button-prev:after, .swiper-button-next:after{
+    font-size: 30px;
+}
+
+.swiper-pagination-bullet-active{
+    background: #5e87eb;
+}
+
+@media screen and (max-width: 992px) {
+    .testimonial .image{
+        width: 20%;
+    }
+}
+@media screen and (max-width: 520px) {
+    .slide p {
+        margin: 0 10%;
+      }
+}
+@media screen and (max-width: 425px) {
+
+    .testimonial .slide {
+        row-gap: 15px;
+      }
+
+      .testimonial-cont {
+        margin: 0%;
+      }
+
+    .testimonial {
+        padding: 35px 0;
+    }
+
+    .slide p {
+        font-size: 15px;
+      }
+    
+      .testimonial .image{
+        width: 30%;
+    }
+
+    .details .name {
+        color: #333;
+        font-size: 15px;
+        font-family: "Jost", sans-serif;
+        font-weight: bold;
+        line-height: 1.4;
+    }
+    .details .job {
+        color: #595959;
+        font-size: 12px;
+        font-family: "Jost", sans-serif;
+        line-height: 1.4;
+    }
+}

@@ -1,0 +1,109 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar img {
+  width: 150px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.navItems {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navItem {
+  margin: 0 40px;
+  font-family: "Cabin", sans-serif;
+  color: black;
+  font-size: large;
+  font-weight: 530;
+}
+
+.navItem:hover {
+  cursor: pointer;
+  color: #5e87eb;
+}
+
+.navItem-md {
+  font-family: "Cabin", sans-serif;
+  color: white;
+  font-size: large;
+  font-weight: 530;
+}
+
+.login-btn a {
+  background-color: #5e87eb;
+  border-radius: 50px;
+  padding: 10px 50px;
+  border: none;
+  outline: none;
+  color: white;
+  font-family: "Cabin", sans-serif;
+  font-size: large;
+  font-weight: 530;
+}
+
+.login-btn a:hover {
+  background-color: #3e57d0;
+}
+
+.navbar-md {
+  margin-left: 1rem;
+  display: none;
+  position: relative;
+}
+.navbar-md a{
+  font-family: "Jost", sans-serif;
+}
+
+.navbar-menu_container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  text-align: end;
+  /* background: #dedcdc; */
+  background: #5e87eb;
+  padding: 2rem;
+  position: absolute; 
+  top: 25px;
+  right: 0;
+  margin-top: 1rem;
+  min-width: 210px;
+  border-radius: 5px;
+  z-index: 1000;
+}
+
+.navbar-menu a{
+  margin: 0;
+}
+
+@media screen and (max-width: 1050px) {
+  .navItems, .login-btn {
+      display: none;
+  }
+
+  .navbar-md {
+      display: flex;
+  }
+}
+
+@media (min-width: 1050px) and (max-width: 1100px) {
+  .navItem {
+    margin: 0 20px;
+  }
+}

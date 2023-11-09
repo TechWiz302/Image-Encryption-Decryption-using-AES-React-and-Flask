@@ -1,0 +1,50 @@
+.download-btn {
+  display: flex;
+}
+
+.download-btn button {
+  font-family: "Jost", sans-serif;
+  position: relative;
+  margin-top: 20px;
+  width: 250px;
+  height: 50px;
+  color: #fff;
+  background-color: #455964;
+  border-radius: 5px;
+  font-size: large;
+  text-align: center;
+  line-height: 40px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.decryption-btn {
+    display: flex;
+}
+
+.decryption-btn a  {
+    font-family: "Jost", sans-serif;
+    margin-top: 30px;
+    position: relative;
+    width: 150px;
+    height: 40px;
+    color: #fff;
+    background-color: #455964;
+    border-radius: 5px;
+    font-size: large;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+@media screen and (max-width: 992px) {
+    .download-btn, .decryption-btn{
+        align-items: center;
+        justify-content: center;
+    }
+}

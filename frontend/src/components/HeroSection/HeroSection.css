@@ -1,0 +1,196 @@
+.heroSection-area {
+  display: flex;
+}
+
+.heroSection_content {
+  padding-top: 6%;
+  text-align: left;
+}
+
+.heroSection_image img {
+  width: 600px;
+}
+
+.sub-title p {
+  font-family: "Jost", sans-serif;
+  font-size: x-large;
+  line-height: 1.5;
+  font-weight: 800;
+  color: #5e87eb;
+}
+
+.title h1 {
+  color: #333;
+  font-size: 42px;
+  font-weight: bolder;
+  font-family: "Jost", sans-serif;
+  line-height: 1.4;
+}
+
+.title span {
+  color: #5e87eb;
+  font-size: 42px;
+  font-weight: bolder;
+  font-family: "Jost", sans-serif;
+  line-height: 1.4;
+}
+
+.hero-content p {
+  color: #595959;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.8;
+  letter-spacing: 0.2px;
+  font-family: "Jost", sans-serif;
+}
+
+.sec-btn {
+  display: flex;
+  margin-top: 40px;
+}
+
+.encrypt-btn a {
+  background-color: #5e87eb;
+  border-radius: 50px;
+  padding: 10px 50px;
+  margin-right: 20px;
+  border: none;
+  outline: none;
+  color: white;
+  font-family: "Jost", sans-serif;
+  font-size: large;
+  font-weight: 530;
+  box-shadow: 0px 7px 25px #5e86eb4d;
+}
+
+.encrypt-btn a:hover {
+  background-color: #3e57d0;
+}
+
+.decrypt-btn a {
+  background-color: white;
+  border-radius: 50px;
+  padding: 10px 50px;
+  border: none;
+  outline: none;
+  color: #5e87eb;
+  font-family: "Jost", sans-serif;
+  font-size: large;
+  font-weight: 530;
+  box-shadow: 0px 7px 25px #5e86eb4d;
+}
+
+.decrypt-btn a:hover {
+  color: white;
+  background-color: #5e87eb;
+}
+
+@media (max-width: 1050px) and (min-width: 993px) {
+  .heroSection_image img {
+    width: 480px;
+  }
+
+  .sub-title p {
+    font-size: large;
+  }
+
+  .title h1 {
+    font-size: 35px;
+  }
+
+  .title span {
+    font-size: 35px;
+  }
+
+  .hero-content p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 992px) {
+  .heroSection-area {
+    display: block;
+  }
+
+  .heroSection_image img {
+    width: 65%;
+  }
+
+  .heroSection_image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sub-title p {
+    text-align: center;
+  }
+
+  .title {
+    padding: 0 30px;
+    text-align: center;
+  }
+
+  .hero-content p {
+    text-align: center;
+  }
+
+  .sec-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sub-title p {
+    font-size: medium;
+  }
+
+  .title h1 {
+    font-size: 30px;
+  }
+
+  .title span {
+    font-size: 30px;
+  }
+
+  .hero-content p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 564px) {
+  .heroSection_image img {
+    padding-top: 25px;
+    width: 80%;
+  }
+
+  .sub-title p {
+    font-size: 18px;
+  }
+
+  .title h1 {
+    font-size: 25px;
+  }
+
+  .title span {
+    font-size: 25px;
+  }
+
+  .hero-content p {
+    font-size: 15px;
+  }
+
+  .encrypt-btn a {
+    padding: 10px 30px;
+    margin-right: 10px;
+    font-size: small;
+  }
+
+  .decrypt-btn a {
+    padding: 10px 30px;
+    margin-right: 10px;
+    font-size: small;
+  }
+}

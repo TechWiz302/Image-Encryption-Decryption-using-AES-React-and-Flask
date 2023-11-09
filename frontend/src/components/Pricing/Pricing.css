@@ -1,0 +1,106 @@
+.pricing {
+  background-color: #f5f7f7;
+}
+
+.pricing-heading h1 {
+  text-align: center;
+  color: #333;
+  font-size: 42px;
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.pricing-container {
+  height: 600px;
+  margin-top: 20px;
+  background-color: #fff;
+  box-shadow: 1px 3px 20px 0px rgb(82, 90, 101, 0.1);
+  border-radius: 15px;
+}
+
+.pricing-container-bg {
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  background-image: url("../../assets/images/pricing.svg");
+  padding: 30px 0;
+  padding-bottom: 45px;
+  min-height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.pricing-title h3 {
+  font-family: "Jost", sans-serif;
+  font-size: 30px;
+  color: #fff;
+  font-weight: 800;
+  line-height: 1.5;
+  text-align: center;
+  margin: 0;
+}
+
+.pricing-amount {
+  text-align: center;
+}
+
+.pricing-amount h2 {
+  font-family: "Jost", sans-serif;
+  font-size: 40px;
+  color: #fff;
+  font-weight: bolder;
+  line-height: 1.5;
+  text-align: center;
+  margin: 0;
+}
+
+.pricing-amount span {
+  font-family: "Jost", sans-serif;
+  font-size: 20px;
+  color: #fff;
+  font-weight: bolder;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.price-features {
+  text-align: center;
+  padding: 0 30px;
+}
+
+.price-features ul {
+  display: block;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.price-features ul li {
+  font-size: 16px;
+  font-family: "Jost", sans-serif;
+  display: block;
+  padding: 10px 0;
+  border-top: 1px dashed #dfe4e8;
+}
+
+.price-features ul li del {
+  color: #aaaaaa;
+}
+
+.price-btn-cont {
+  text-align: center;
+  padding-bottom: 35px;
+  margin-top: 15px;
+}
+
+.price-btn {
+  font-family: "Jost", sans-serif;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 12px 30px;
+  border-radius: 30px;
+  background-color: #5e87eb;
+}
