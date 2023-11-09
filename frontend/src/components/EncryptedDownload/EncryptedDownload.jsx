@@ -7,7 +7,7 @@ import "./EncryptedDownload.css";
 function EncryptedDownload() {
     const handleDownload = async () => {
         try {
-            const response = await fetch("http://127.0.0.1:5000/encImage", {
+            const response = await fetch("https://api-aes.onrender.com/encImage", {
                 method: 'GET',
                 mode: 'cors',
             });

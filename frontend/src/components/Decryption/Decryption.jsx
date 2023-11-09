@@ -25,7 +25,7 @@ function Decryption() {
         formData.append('key', password);
 
         try {
-            const response = await fetch("http://127.0.0.1:5000/decrypted_download", {
+            const response = await fetch("https://api-aes.onrender.com/decrypted_download", {
                 method: 'POST',
                 body: formData,
                 mode: 'cors',

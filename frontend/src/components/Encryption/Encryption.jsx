@@ -26,7 +26,7 @@ function Encryption() {
         formData.append('key', password);
 
         try {
-            const response = await fetch("http://127.0.0.1:5000/encrypted_download", {
+            const response = await fetch("https://api-aes.onrender.com/encrypted_download", {
                 method: 'POST',
                 body: formData,
                 mode: 'cors',

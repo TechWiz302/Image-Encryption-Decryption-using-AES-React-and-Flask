@@ -7,7 +7,7 @@ function DecryptedDownload() {
 
     const handleDownload = async () => {
         try {
-            const response = await fetch("http://127.0.0.1:5000/decImage", {
+            const response = await fetch("https://api-aes.onrender.com/decImage", {
                 method: 'GET',
                 mode: 'cors',
             });
